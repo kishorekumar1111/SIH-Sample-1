@@ -1,0 +1,12 @@
+[build]
+  base = "SIH-Sample-1/SIH-Prg"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
