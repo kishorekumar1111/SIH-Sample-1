@@ -1,6 +1,5 @@
 [build]
-  base = "SIH-Sample-1/SIH-Prg"
-  command = "npm run build"
+  command = "npm install && npm run build"
   publish = "dist"
 
 [build.environment]

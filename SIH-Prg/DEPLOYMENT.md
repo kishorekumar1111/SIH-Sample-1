@@ -10,9 +10,15 @@
    - The `netlify.toml` file is already configured
 
 2. **Build Settings:**
-   - Base directory: `SIH-Sample-1/SIH-Prg`
+   - Base directory: `SIH-Prg` (or leave empty for root)
    - Build command: `npm run build`
-   - Publish directory: `dist`
+   - Publish directory: `SIH-Prg/dist`
+
+3. **Alternative Manual Settings:**
+   - If automatic detection fails, manually set:
+   - Base directory: `SIH-Prg`
+   - Build command: `npm run build`
+   - Publish directory: `SIH-Prg/dist`
 
 3. **Environment Variables:**
    - Add your Firebase config in Netlify dashboard
